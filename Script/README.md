@@ -3,4 +3,4 @@
 
 ## Execução do Script
 
-- Para executar o script basta usar o comando ```bash script.sh``` dentro do diretório Script
+- Para executar o script que cria e a imagem docker com o app.js basta usar o comando ```bash script.sh``` dentro do diretório Script

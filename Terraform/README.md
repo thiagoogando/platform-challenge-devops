@@ -49,7 +49,7 @@ Também inseri um input que solicita qual a Key pair será atrelada à instânci
 
 ## Acesso
 
-- Para acessar a instância criada basta seguir o comando de exemplo: `ssh -i "nome-da-key-pair.pem" ubuntu@ec2-44-203-118-51.compute-1.amazonaws.com`
+- Para acessar à instância criada basta seguir o comando de exemplo: `ssh -i "nome-da-key-pair.pem" ubuntu@ec2-44-203-118-51.compute-1.amazonaws.com`
 
 
 

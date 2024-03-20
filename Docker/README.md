@@ -15,7 +15,7 @@ Dentro deste repositório existe um subdiretório app e um Dockerfile que constr
 
 ## Desafios
 
-- Primeiro eu acrescentei a função ```require("os").userInfo().username``` para pegar o nome de usuário atual do S.O., quando executado por container vai ser exibido o nome de usuário do container, mas se rodar o código diretamente no seu S.O. será exibido o seu nome de usuário atual da máquina. Também acrescentei o const ```port = process.env.PORT``` para deixar mais dinâmica a escolha da porta que a aplicação vai rodar, então ao executar a imagem basta passar o parâmetro `-e PORT=` seguido da porta que desejo usar, podendo assim alterar a porta sem precisar refazer a imagem.
+- Primeiro eu acrescentei a função ```require("os").userInfo().username``` para pegar o nome de usuário atual do S.O., quando executado por container vai ser exibido o nome de usuário do container. Também acrescentei o const ```port = process.env.PORT``` para deixar mais dinâmica a escolha da porta que a aplicação vai rodar, então ao executar a imagem basta passar o parâmetro `-e PORT=` seguido da porta que desejo usar, podendo assim alterar a porta sem precisar refazer a imagem.
 
 - Mas para rodar o app.js foi necessária a instalação do `express`
 
@@ -24,4 +24,4 @@ Também por questão de segurança criei um novo usuário dentro do container pa
 
 ## Execução
 
-- Para executar o script basta usar o comando ```bash script.sh``` dentro do diretório Script
+- Para executar o script que cria e a imagem docker com o app.js basta usar o comando ```bash script.sh``` dentro do diretório Script
