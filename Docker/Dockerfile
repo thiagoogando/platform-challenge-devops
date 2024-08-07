@@ -1,4 +1,4 @@
-FROM node:21.7-alpine
+FROM node:22.6-alpine
 
 RUN adduser -h /var/thiago \
       -s /bin/bash \
